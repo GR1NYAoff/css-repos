@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4b4b4b;
+}
+
+.header_top {
+    background-color: #5e5e5e;
+    line-height: 36px;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header_top .container .header_btn {
+    float: right;
+    padding: 8px 20px 8px 50px;
+    font-size: 16;
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: hsl(0, 0%, 11%);
+    background-color: #ffc222;
+    border: solid 2px;
+    position: relative;
+}
+
+.header_top .container .header_btn:before{
+    font-family: 'icomoon';
+    content: "\e9ae";
+    position: absolute;
+    left:25px; 
+
+}
+
+.header_contacts:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header_logo img {
+    padding: 10px;
+    max-width: 80px;
+}
+
+
+
+.header_top a.header_phone,
+a.header_email {
+    color: #cbcacb;
+    letter-spacing: 0.25px;
+    position: relative;
+}
+
+.header_phone {
+    padding-right: 30px;
+    padding-left: 20px;   
+}
+.header_phone:before{
+    font-family: 'icomoon';
+    content: "\e942";
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+
+.header_email {
+    padding-left: 24px;
+}
+.header_email:before{
+    font-family: 'icomoon'; 
+    content: "\e900";
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+
+.header_top .container a {
+    transition: 0.5s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header_content {
+    border-bottom: solid 3px;
+    padding: 34px 0px 23px;
+}
+
+.header_container-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_top .container .header_btn:hover {
+    color: #ffc222;
+    background-color: #5e5e5e;
+}
+
+.header_top a.header_phone:hover,
+a.header_email:hover {
+    color: #ffc222;
+}
+
+.menu li {   
+    display: inline-block;
+}
+
+.menu a {
+    color: hsl(0, 0%, 11%);    
+    font-size: 16px;
+    padding: 0px 10px;
+    border: 2px solid transparent;
+    line-height: 36px;
+    transition: all .3s;
+}
+
+.menu a:hover {
+    border-color: #ffc222;
+}
+.menu li+li{
+    padding-left: 10px;
+}
