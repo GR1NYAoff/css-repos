@@ -50,11 +50,11 @@ header {
     position: relative;
 }
 
-.header_top .container .header_btn:before{
+.header_top .container .header_btn:before {
     font-family: 'icomoon';
     content: "\e9ae";
     position: absolute;
-    left:25px; 
+    left: 25px;
 
 }
 
@@ -80,9 +80,10 @@ a.header_email {
 
 .header_phone {
     padding-right: 30px;
-    padding-left: 20px;   
+    padding-left: 20px;
 }
-.header_phone:before{
+
+.header_phone:before {
     font-family: 'icomoon';
     content: "\e942";
     position: absolute;
@@ -93,16 +94,19 @@ a.header_email {
 .header_email {
     padding-left: 24px;
 }
-.header_email:before{
-    font-family: 'icomoon'; 
+
+.header_email:before {
+    font-family: 'icomoon';
     content: "\e900";
     position: absolute;
     left: 0;
     color: #ffc222;
 }
-.header_content {    
+
+.header_content {
     padding: 34px 0px 23px;
 }
+
 .header_top .container a {
     transition: 0.5s;
     padding-top: 10px;
@@ -124,12 +128,12 @@ a.header_email:hover {
     color: #ffc222;
 }
 
-.menu li {   
+.menu li {
     display: inline-block;
 }
 
 .menu a {
-    color: hsl(0, 0%, 11%);    
+    color: hsl(0, 0%, 11%);
     font-size: 16px;
     padding: 0px 10px;
     border: 2px solid transparent;
@@ -140,6 +144,11 @@ a.header_email:hover {
 .menu a:hover {
     border-color: #ffc222;
 }
-.menu li+li{
+
+.menu li+li {
     padding-left: 10px;
+}
+
+#modal {
+    display: none;
 }

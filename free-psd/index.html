@@ -11,20 +11,29 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/fonts.css">
+    <!-- <link rel="stylesheet" href="css/jquery.fancybox.min.css"> -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />    
     <link rel="stylesheet" href="css/style.css" />
+
   </head>
   <body>
-    <header class="header_top">
+    <header>
+
+    <div class="header_top">
       <div class="container">
         <div class="header_contacts">
           <a class="header_phone" href="tel: 380954674160"
             >+38 (095) 467 41 60</a
           >
           <a class="header_email" href="#">grinyatsy@gmail.com</a>
-          <a class="header_btn" href="#">Бесплатная консультация</a>
+          <a data-fancybox data-src="#modal" href="javascript:;" class="header_btn"
+           >Бесплатная консультация</a>
         </div>
       </div>
-    </header>
+    </div>
     <div class="header_content">
       <div class="container">
         <div class="header_container-inner">
@@ -42,10 +51,19 @@
             </ul>
           </nav>
         </div>
-      </div>
+      </div> 
     </div>
-    <div class="main_content">
-      <div class="container"></div>
+    </header>
+
+    <div id="modal">
+      <h2>Hello</h2>
+      <p>You are awesome</p>
     </div>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- <script>src="js/jquery.fencybox.min.js"</script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script>src="js/main.js"</script>
+
   </body>
 </html>
