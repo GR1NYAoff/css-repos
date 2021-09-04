@@ -214,3 +214,51 @@ a .slider_item-content slider-btn{
     transform: translateY(-50%);
 }
 
+.container{
+    position: relative;
+}
+
+.btn_slick{
+    position: absolute;
+    top: 70%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid #fff;   */
+    border: none;
+    background-color: transparent;
+    color: #fff; 
+    font-size: 80px;
+    font-weight: lighter ;
+    cursor: pointer;
+}
+
+.btn_slick.slick-disabled{
+    cursor: default;
+    color: transparent;
+}
+
+.btn_slick:before{    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+    
+}
+
+.slick-next{
+    right: -20px;
+}
+.slick-next:before{
+    
+    content: "\ea42";
+}
+
+.slick-prev{
+    left: -20px;
+}
+
+.slick-prev:before{
+    
+    content: "\ea44";
+}
