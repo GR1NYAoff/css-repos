@@ -205,10 +205,11 @@ a .slider_item-content slider-btn{
 
 .default-btn:after{
     font-family: 'icomoon';
-    content: "\e978";
+    content: "\e902";
+    font-size: 20px;
     position: absolute;
     top:50%;
-    right: -16px;
+    right: -20px;
     position:absolute;
     transform: translateY(-50%);
 }
