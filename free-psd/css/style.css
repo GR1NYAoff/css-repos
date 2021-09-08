@@ -231,11 +231,12 @@ a .slider_item-content slider-btn{
     font-size: 80px;
     font-weight: lighter ;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .btn_slick.slick-disabled{
     cursor: default;
-    color: transparent;
+    color: transparent;      
 }
 
 .btn_slick:before{    
@@ -261,4 +262,53 @@ a .slider_item-content slider-btn{
 .slick-prev:before{
     
     content: "\ea44";
+}
+
+.about_logos img{
+    padding: 10px;
+    max-width: 120px;
+}
+
+.about_top{
+    line-height: 24px;    
+    display: flex;
+    justify-content: space-between;   
+}
+
+.about{
+    padding: 50px 0px, 30px;    
+}
+
+.about_title-box{
+    max-width:  520px;
+    padding-left: 140px;
+    position: relative;
+}
+
+.about_title-box:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color:#ffc222;
+    left: 0;
+    top: 40px;   
+}
+.about_btn{
+    margin-top: 50px;
+}
+.about_title-box{
+    padding-top: 30px;
+}
+.about-title{
+    
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #212020;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about_text{
+
 }
